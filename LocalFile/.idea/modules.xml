@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LocalFile.iml" filepath="$PROJECT_DIR$/LocalFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-localfile/lib-localfile.iml" filepath="$PROJECT_DIR$/lib-localfile/lib-localfile.iml" />
+      <module fileurl="file://G:\LocalFile\lib-localfile\lib-localfile.iml" filepath="G:\LocalFile\lib-localfile\lib-localfile.iml" />
+    </modules>
+  </component>
+</project>

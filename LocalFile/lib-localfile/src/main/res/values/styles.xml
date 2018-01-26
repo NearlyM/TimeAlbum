@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="title_image_style">
+        <item name="android:layout_width">@dimen/title_image_width</item>
+        <item name="android:layout_height">@dimen/title_image_height</item>
+        <item name="android:padding">@dimen/title_image_padding</item>
+    </style>
+</resources>

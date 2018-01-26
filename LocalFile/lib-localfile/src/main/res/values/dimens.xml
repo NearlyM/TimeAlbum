@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_image_width">48dp</dimen>
+    <dimen name="title_image_height">48dp</dimen>
+    <dimen name="title_image_padding">14dp</dimen>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">lib-localfile</string>
+    <string name="photos">Photos</string>
+    <string name="videos">Videos</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="selected">Selected</string>
+    <string name="item">item</string>
+    <string name="unselect_all">unselect_all</string>
+    <string name="select_all">select_all</string>
+    <string name="local_file">local_file</string>
+    <string name="sure_you_want_to_delete">Confirm deletion?</string>
+    <string name="share">Share</string>
+    <string name="upload">Upload</string>
+    <string name="Delete">Delete</string>
+    <string name="Cancel">Cancel</string>
+    <string name="save_album">save album</string>
+</resources>

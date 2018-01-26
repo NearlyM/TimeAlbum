@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#F1F2F6">
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="@color/cl_333333"
+        android:background="@drawable/icon_return" />
+        <!--android:src="@drawable/icon_return" -->
+
+    <TextView
+        android:id="@+id/select_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="本地文件"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="21sp" />
+
+
+    <TextView
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="22dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:text="选择"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="@color/cl_333333"
+        android:background="@null" />
+
+</RelativeLayout>

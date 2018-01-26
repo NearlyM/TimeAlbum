@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+             >
+
+
+    <com.danale.localfile.wedgit.HackyViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"/>
+
+    <com.danale.localfile.wedgit.HackyGallery
+        android:visibility="gone"
+        android:background="@android:color/black"
+        android:id="@+id/thumb_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include layout="@layout/local_gallery_explore_titlebar"/>
+    <View
+        android:layout_below="@id/titlebar"
+        android:background="#16000000"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+
+    <com.danale.localfile.wedgit.HackyGallery
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:background="#F1F2F6"
+        android:id="@+id/thumb_gallery_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:id="@+id/index"
+        android:textColor="@color/black_99"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/thumb_gallery_bottom"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/10"/>
+
+    <include
+        android:layout_alignParentBottom="true"
+        layout="@layout/local_file_explore_popup_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+</RelativeLayout>
